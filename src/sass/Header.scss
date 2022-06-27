@@ -2,7 +2,7 @@
 
 .header {
   background-color: $color-primary;
-  height: 10rem;
+  height: 7vw;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(3, 1fr);
@@ -12,11 +12,16 @@
   &__start {
     display: grid;
     grid-auto-flow: column;
-    gap: 3rem;
+    gap: 3vw;
     justify-self: start;
 
     &--img {
-      height: 2rem;
+      height: 1.8vw;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: translateY(-0.2vw) scale(1.2);
+      }
     }
   }
 
@@ -24,7 +29,7 @@
     display: grid;
     justify-content: center;
     &--title {
-      font-size: 1.8rem;
+      font-size: 1.6vw;
       font-weight: 400;
     }
   }
@@ -32,7 +37,7 @@
     display: grid;
     grid-auto-flow: column;
     justify-self: end;
-    gap: 3rem;
+    gap: 3vw;
 
     &--title {
       border: none;
@@ -40,8 +45,13 @@
       color: white;
       cursor: pointer;
       font-family: nFont;
-      font-size: 1.3rem;
+      font-size: 1.2vw;
       font-weight: 700;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: translateY(-0.2vw) scale(1.2);
+      }
     }
   }
 }

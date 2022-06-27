@@ -1,5 +1,5 @@
 $color-primary: #2b2b2b;
-$color-primary-light: #e5f4fc;
+$color-primary-light: #444343;
 $color-primary-light1: #a2dfff;
 $color-primary-light2: #79d0ff;
 $color-primary-light3: #b9e5ff;
@@ -32,11 +32,11 @@ $color-border-primary: rgb(216, 215, 215);
   height: 0.7rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: $color-primary-light1;
+  background-color: $color-primary-light;
   border-radius: 1rem;
 
   &:hover {
-    background-color: $color-primary;
+    background-color: $color-primary-light1;
   }
 }
 
