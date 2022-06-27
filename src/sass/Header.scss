@@ -1,0 +1,47 @@
+@import "./base";
+
+.header {
+  background-color: $color-primary;
+  height: 10rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+
+  &__start {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3rem;
+    justify-self: start;
+
+    &--img {
+      height: 2rem;
+    }
+  }
+
+  &__center {
+    display: grid;
+    justify-content: center;
+    &--title {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+  &__end {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+    gap: 3rem;
+
+    &--title {
+      border: none;
+      background-color: $color-primary;
+      color: white;
+      cursor: pointer;
+      font-family: nFont;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+  }
+}

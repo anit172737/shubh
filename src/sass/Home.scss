@@ -1,0 +1,31 @@
+@import "./base";
+
+.home {
+  background-color: $color-primary;
+  height: 100vh;
+  //   display: grid;
+  //   align-items: flex-start;
+  padding: 0vh 22vh;
+
+  &__description {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    padding: 5rem 0rem;
+
+    &--title {
+      font-size: 1.3rem;
+      font-family: nFont;
+      color: rgba(255, 255, 255, 0.56);
+    }
+
+    &--sec {
+      font-family: mFont;
+      font-size: 3.5rem;
+      font-weight: 700;
+      padding: 0rem 10rem;
+      text-align: center;
+    }
+  }
+}
