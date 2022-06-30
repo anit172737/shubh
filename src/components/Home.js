@@ -11,7 +11,6 @@ import img6 from '../img/6.png'
 const Home = () => {
   return (
     <div className='home'>
-        <Header/>
         <div className='home__description'>
             <p className='home__description--title'>👋🏻Hello, I’m Shubh</p>
             <p className='home__description--sec'>

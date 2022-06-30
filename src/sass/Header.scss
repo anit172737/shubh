@@ -3,6 +3,8 @@
 .header {
   background-color: $color-primary;
   height: 7vw;
+
+  padding: 0vw 7vw;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(3, 1fr);
@@ -37,6 +39,7 @@
     display: grid;
     grid-auto-flow: column;
     justify-self: end;
+    align-items: center;
     gap: 3vw;
 
     &--title {
@@ -48,10 +51,23 @@
       font-size: 1.2vw;
       font-weight: 700;
       transition: all 0.2s;
+      text-decoration: none;
 
       &:hover {
         transform: translateY(-0.2vw) scale(1.2);
       }
+    }
+
+    &--active {
+      color: $color-primary;
+      font-family: nFont;
+      font-size: 1.2vw;
+      font-weight: 700;
+      transition: all 0.2s;
+      text-decoration: none;
+      background-color: white;
+      padding: 0.2rem 2rem;
+      border-radius: 2rem;
     }
   }
 }
