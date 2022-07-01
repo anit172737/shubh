@@ -1,1 +1,68 @@
 @import "./base";
+
+.about {
+  display: grid;
+  gap: 4.5vw;
+  justify-content: start;
+  padding: 4.5vw 7vw;
+
+  &__description {
+    &--title {
+      font-size: 1.2vw;
+      font-family: nFont;
+      color: rgba(255, 255, 255, 0.56);
+      padding: 1vw 0;
+    }
+
+    &--sec {
+      font-family: mFont;
+      font-size: 3.2vw;
+      font-weight: 700;
+      text-align: left;
+    }
+  }
+
+  &__sec {
+    display: grid;
+    gap: 3.3vw;
+
+    &--p {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      height: 4vw;
+      width: 4vw;
+      background-color: #666666;
+      color: white;
+      font-size: 2.2vw;
+      font-weight: bold;
+      border-radius: 50%;
+
+      &-1 {
+        justify-self: end;
+      }
+    }
+
+    &--detail {
+      font-size: 1.2vw;
+    }
+  }
+
+  &__end {
+    display: grid;
+    gap: 2vw;
+    justify-content: center;
+    justify-items: center;
+
+    &--head {
+      font-size: 3.5vw;
+    }
+
+    &--links {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 1vw;
+      font-size: 1vw;
+    }
+  }
+}
