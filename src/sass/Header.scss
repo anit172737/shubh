@@ -3,7 +3,6 @@
 .header {
   background-color: $color-primary;
   height: 7vw;
-
   padding: 0vw 7vw;
   display: grid;
   grid-auto-flow: column;
@@ -11,6 +10,16 @@
   justify-items: center;
   align-items: center;
 
+  &__1 {
+    background-color: white;
+    height: 7vw;
+    padding: 0vw 7vw;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
   &__start {
     display: grid;
     grid-auto-flow: column;
@@ -24,15 +33,32 @@
       &:hover {
         transform: translateY(-0.2vw) scale(1.2);
       }
+
+      &-1 {
+        height: 1.8vw;
+        transition: all 0.2s;
+        color: $color-primary;
+
+        &:hover {
+          transform: translateY(-0.2vw) scale(1.2);
+        }
+      }
     }
   }
 
   &__center {
     display: grid;
     justify-content: center;
+
     &--title {
       font-size: 1.6vw;
       font-weight: 400;
+
+      &-1 {
+        font-size: 1.6vw;
+        font-weight: 400;
+        color: $color-primary;
+      }
     }
   }
   &__end {
@@ -56,6 +82,22 @@
       &:hover {
         transform: translateY(-0.2vw) scale(1.2);
       }
+
+      // &-1 {
+      //   border: none;
+      //   background-color: white;
+      //   color: $color-primary;
+      //   cursor: pointer;
+      //   font-family: nFont;
+      //   font-size: 1.2vw;
+      //   font-weight: 700;
+      //   transition: all 0.2s;
+      //   text-decoration: none;
+
+      //   &:hover {
+      //     transform: translateY(-0.2vw) scale(1.2);
+      //   }
+      // }
     }
 
     &--active {
@@ -68,6 +110,18 @@
       background-color: white;
       padding: 0.2rem 2rem;
       border-radius: 2rem;
+
+      &-1 {
+        color: white;
+        font-family: nFont;
+        font-size: 1.2vw;
+        font-weight: 700;
+        transition: all 0.2s;
+        text-decoration: none;
+        background-color: $color-primary;
+        padding: 0.2rem 2rem;
+        border-radius: 2rem;
+      }
     }
   }
 }
