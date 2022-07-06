@@ -36,16 +36,21 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, minmax(1fr, 435px));
 
-    &--img1 {
+    &--img{
       height: 100%;
       width: 100%;
-      grid-row: 1/2;
-      grid-column: 1/2;
       transition: all 0.2s;
 
       &:hover {
-        outline: 5px solid rgb(224, 223, 223);
+        outline: .7vw solid rgb(224, 223, 223);
+        // border-radius: 1vw;
       }
+    }
+
+    &--img1 {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      
     }
 
     &--img2 {

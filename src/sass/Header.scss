@@ -83,21 +83,21 @@
         transform: translateY(-0.2vw) scale(1.2);
       }
 
-      // &-1 {
-      //   border: none;
-      //   background-color: white;
-      //   color: $color-primary;
-      //   cursor: pointer;
-      //   font-family: nFont;
-      //   font-size: 1.2vw;
-      //   font-weight: 700;
-      //   transition: all 0.2s;
-      //   text-decoration: none;
+      &-1 {
+        border: none;
+        background-color: white;
+        color: $color-primary;
+        cursor: pointer;
+        font-family: nFont;
+        font-size: 1.2vw;
+        font-weight: 700;
+        transition: all 0.2s;
+        text-decoration: none;
 
-      //   &:hover {
-      //     transform: translateY(-0.2vw) scale(1.2);
-      //   }
-      // }
+        &:hover {
+          transform: translateY(-0.2vw) scale(1.2);
+        }
+      }
     }
 
     &--active {
