@@ -28,15 +28,15 @@ $color-border-primary: rgb(216, 215, 215);
 }
 
 ::-webkit-scrollbar {
-  width: 0.7rem;
-  height: 0.7rem;
+  width: .7vw;
+  height: .7vw;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: $color-primary-light;
+  background-color: $color-primary-light3;
   border-radius: 1rem;
 
   &:hover {
-    background-color: $color-primary-light1;
+    background-color: $color-primary-light2;
   }
 }
 
