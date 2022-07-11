@@ -19,6 +19,7 @@
       font-size: 3.2vw;
       font-weight: 700;
       text-align: left;
+      color: white;
     }
   }
 
@@ -45,6 +46,7 @@
 
     &--detail {
       font-size: 1.8vw;
+      color: white;
     }
   }
 
@@ -56,6 +58,7 @@
 
     &--head {
       font-size: 3.5vw;
+      color: white;
     }
 
     &--links {
@@ -63,6 +66,7 @@
       grid-auto-flow: column;
       gap: 1vw;
       font-size: 1vw;
+      color: white;
     }
   }
 }

@@ -28,7 +28,9 @@ const Home = ({setBackColor}) => {
                 <img className='home__end--img home__end--img2' src={img2} alt='img-2'></img>
                 <img className='home__end--img home__end--img3' src={img3} alt='img-3'></img>
                 <img className='home__end--img home__end--img4' src={img4} alt='img-4'></img>
-                <img className='home__end--img home__end--img5' src={img5} alt='img-5'></img>
+            <NavLink to='/nike'>
+                <img className='home__end--img home__end--img1' src={img5} alt='img-5'></img>
+            </NavLink>
                 <img className='home__end--img home__end--img6' src={img6} alt='img-6'></img>
             </div>
     </div>

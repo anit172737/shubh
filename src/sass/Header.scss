@@ -53,6 +53,7 @@
     &--title {
       font-size: 1.6vw;
       font-weight: 400;
+      color: white;
 
       &-1 {
         font-size: 1.6vw;
@@ -81,6 +82,7 @@
 
       &:hover {
         transform: translateY(-0.2vw) scale(1.2);
+        color: white;
       }
 
       &-1 {
@@ -96,6 +98,7 @@
 
         &:hover {
           transform: translateY(-0.2vw) scale(1.2);
+          color: black;
         }
       }
     }
@@ -111,6 +114,10 @@
       padding: 0.2rem 2rem;
       border-radius: 2rem;
 
+      &:hover{
+        color: inherit;
+      }
+
       &-1 {
         color: white;
         font-family: nFont;
@@ -121,6 +128,10 @@
         background-color: $color-primary;
         padding: 0.2rem 2rem;
         border-radius: 2rem;
+
+        &:hover{
+          color: inherit;
+        }
       }
     }
   }

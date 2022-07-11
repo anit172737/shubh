@@ -25,11 +25,11 @@ const Header = ({backColor , setBackColor}) => {
             className={({ isActive }) => (isActive ? 'header__end--active' : backColor ? 'header__end--title-1' : 'header__end--title')}>
                 Home
             </NavLink>
-            <NavLink  
+            {/* <NavLink  
             to='/work' onClick={()=>setBackColor(false)}
             className={({ isActive }) => (isActive ? 'header__end--active' : backColor ? 'header__end--title-1' : 'header__end--title')} >
                 Work
-            </NavLink>
+            </NavLink> */}
             <NavLink  
             to='/about' onClick={()=>setBackColor(false)}
             className={({ isActive }) => (isActive ? 'header__end--active' : backColor ? 'header__end--title-1' : 'header__end--title')}>

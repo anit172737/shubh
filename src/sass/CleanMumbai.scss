@@ -51,4 +51,14 @@
         gap: 2vw;
         padding: 2.5vw 9vw;
     }
+
+    &__final{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 7vw;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding: .8vw 3.2vw;
+    }
 }
