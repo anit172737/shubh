@@ -1,14 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../sass/CleanMumbai.scss'
 import img1 from '../img/cleanMumbai/1.png'
 import img2 from '../img/cleanMumbai/2.jpeg'
 import img3 from '../img/cleanMumbai/3.png'
 import img4 from '../img/cleanMumbai/4.png'
 import img5 from '../img/cleanMumbai/5.png'
+import img6 from '../img/cleanMumbai/6.png'
+import img7 from '../img/cleanMumbai/7.png'
+import Modal from './Modal'
+
 
 const CleanMumbai = () => {
+  const [showModal, setShowModal] = useState(false)
+  const handleOpen = () =>{
+    setShowModal(true)
+  }
+
+  const handleClose = () =>{
+    setShowModal(false)
+  }
+
   return (
     <div className='clean'>
+      {showModal && 
+        <Modal showModal={showModal} handleClose = {handleClose}/>
+      }
       <div>
       <div className='clean__head'>
         <p className='clean__head--p'>Mobile <br/>Application &nbsp;----</p>
@@ -77,25 +93,56 @@ const CleanMumbai = () => {
           In BMC POV survey, the questions that were asked solely about their work schedule and problems that they suffer while doing cleaning.
           </p>
         <div>
-        <img className='clean__img' style={{paddingLeft:'1vw', paddingRight:'1vw', paddingTop:'2vw'}} src={img4} alt='clean__img4'></img>
+        <img className='clean__img' style={{padding:'2vw 1vw', height:'62vw'}} src={img4} alt='clean__img4'></img>
         </div>
         </div>
       </div>
       <div>
         <p className='clean__head--title' style={{textAlign:'center', fontSize:'2.5vw', padding:'3vw 0vw'}}>User Persona - 1</p>
-        <img className='clean__img' style={{padding:'2.5vw 0vw', height:'74vw'}} src={img5} alt='clean__img5'></img>
+        <img className='clean__img' style={{padding:'2vw 0vw', height:'74vw'}} src={img5} alt='clean__img5'></img>
       </div>
 
-      <div>
         <div className='clean__overview'>
           <p className='clean__head--title'  style={{textAlign:'center', fontSize:'2.5vw', padding:'1vw 0vw'}}>Insights</p>
           <p className='clean__head--details' style={{textAlign:'center'}}>
           From the responses I gathered from the two surveys, it was clear that both sides
           had a major problem with the current interaction between Citizen and Bmc workers.
           </p>
+          <img className='clean__img' style={{height:'31vw', paddingTop:'2vw', paddingBottom:'4vw'}} src={img6} alt='clean__img6'></img>        
         </div>
-      </div>
 
+        <div style={{backgroundColor:'#CDE5FF', paddingBottom:'3vw'}}>
+        <div className='clean__overview'>
+          <p className='clean__head--title'>Information Architecture:</p>
+          <p className='clean__head--details'>
+            After analyzing the data gathered from my <span style={{fontWeight:'bold'}}>user research</span>, I wanted to create a mobile app. The main reason was that I 
+            wanted the product to be <span style={{fontWeight:'bold'}}>accessible</span> where users can pull out the app 
+            <span style={{fontWeight:'bold'}}> whenever</span> and <span style={{fontWeight:'bold'}}> wherever</span> they are.<br/><br/> 
+            An IA was created to help me figure out all the different functions needed in the app.</p>
+        </div>
+        </div>
+
+        <div>
+          <div className='clean__overview'>
+            <p className='clean__head--title'>Low-fidelity wireframes:</p>
+            <p className='clean__head--details'>
+              Once I had clear idea of information architecture of the app, I went ahead and created low-fidelity wireframes for both citizen and bmc. There are 3 main functions
+              i wanted to focus on to solve the problem: reporting, complaints gathering and taking actions on it.
+            </p>
+          </div>
+          <img className='clean__img' style={{height:'45vw', cursor:'pointer'}} onClick={handleOpen}  src={img7} alt='clean__img7'></img>
+        </div>
+
+        <div>
+          <div className='clean__overview'>
+            <p className='clean__head--title'>Usability Testing:</p>
+            <p className='clean__head--details'>
+            Before moving on to hi-fi wireframes, I wanted to make sure the app I created was functional and covered all the necessary workflows. 
+            I tested on 5 different people who were asked to go through several tasks that would allow them to experience the whole app.
+            </p>
+          </div>
+          <img className='clean__img' style={{height:'45vw'}}  src={img7} alt='clean__img7'></img>
+        </div>
     </div>
   )
 }
