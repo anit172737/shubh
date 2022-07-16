@@ -64,9 +64,20 @@
     &--links {
       display: grid;
       grid-auto-flow: column;
-      gap: 1vw;
+      gap: 2vw;
       font-size: 1vw;
       color: white;
+
+      &-a{
+        text-decoration: none;
+        color: white;
+        transition: all .2s;
+        
+        &:hover{
+          transform: scale(1.2) translateY(-.3vw);
+          color: white;
+        }
+      }
     }
   }
 }

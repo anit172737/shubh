@@ -29,6 +29,7 @@ const ImgModal = ({ showModal, handleClose }) => {
               height: "2.6vw",
               width: "5vw",
               borderRadius: "4vw",
+              fontSize: "1vw",
             }}
           >
             Close

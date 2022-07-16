@@ -10,7 +10,7 @@ import img7 from "../img/safar/7.jpg";
 import img8 from "../img/safar/8.jpg";
 import img9 from "../img/safar/9.jpg";
 import img10 from "../img/safar/10.jpg";
-import img11 from "../img/safar/10.jpg";
+import img11 from "../img/safar/11.jpg";
 import img12 from "../img/safar/12.jpg";
 import img13 from "../img/safar/13.jpg";
 import img14 from "../img/safar/14.jpg";

@@ -12,6 +12,7 @@ import img12 from "../img/cleanMumbai/12.png";
 import img13 from "../img/cleanMumbai/13.png";
 import img14 from "../img/cleanMumbai/14.png";
 import img15 from "../img/cleanMumbai/15.png";
+import img16 from "../img/cleanMumbai/16.jpeg";
 
 import Modal from "./Modal";
 
@@ -263,7 +264,7 @@ const CleanMumbai = () => {
         <img
           className="clean__img"
           style={{ height: "45vw" }}
-          src={img7}
+          src={img16}
           alt="clean__img7"
         ></img>
       </div>
