@@ -7,5 +7,27 @@
 }
 
 .modal-content{
-  border-radius: 10px !important;
+  border-radius: 1.5vw !important;
+}
+
+.safar{
+  display: grid;
+  height: 100%;
+
+  &__img{
+    height: 50vw;
+    width: 100%;
+
+    &--1{
+      height: 47vw;
+    }
+
+    &--12{
+      height: 30vw;
+    }
+  }
+}
+
+.carousel .thumb{
+  display: none !important;
 }

@@ -57,8 +57,19 @@ const CleanMumbai = () => {
             </p>
           </div>
         </div>
-        <div>
-          <img className="clean__img" src={img1} alt="clean__img1"></img>
+        <div
+          style={{
+            backgroundColor: "#abd3fe",
+            paddingLeft: "9vw",
+            paddingRight: "9vw",
+          }}
+        >
+          <img
+            className="clean__img"
+            src={img1}
+            alt="clean__img1"
+            style={{ height: "47vw" }}
+          ></img>
         </div>
       </div>
 
@@ -122,8 +133,19 @@ const CleanMumbai = () => {
             cleaned.
           </p>
         </div>
-        <div>
-          <img className="clean__img" src={img3} alt="clean__img3"></img>
+        <div
+          style={{
+            backgroundColor: "#abd3fe",
+            paddingLeft: "10vw",
+            paddingRight: "10vw",
+          }}
+        >
+          <img
+            className="clean__img"
+            src={img3}
+            alt="clean__img3"
+            style={{ height: "47vw" }}
+          ></img>
         </div>
       </div>
 
@@ -258,7 +280,11 @@ const CleanMumbai = () => {
           <div>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw' }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img11}
               alt="clean__img11"
             ></img>
@@ -281,22 +307,28 @@ const CleanMumbai = () => {
         </div>
 
         <div className="clean__final">
-        <div>
+          <div>
             <p style={{ fontSize: "2vw", fontWeight: "700", color: "gray" }}>
               CITIZEN POV
             </p>
             <p className="clean__head--title" style={{ paddingTop: "0vw" }}>
-            CONTACTING
+              CONTACTING
             </p>
             <p className="clean__head--details">
-            No more searchiing phone numbers. There is a call feature which will help citizen’s to 
-            make direct call to BMC office which willl help them to easily connect with the workers whi are closer to them.
+              No more searchiing phone numbers. There is a call feature which
+              will help citizen’s to make direct call to BMC office which willl
+              help them to easily connect with the workers whi are closer to
+              them.
             </p>
           </div>
           <div>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw'  }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img11}
               alt="clean__img11"
             ></img>
@@ -307,85 +339,103 @@ const CleanMumbai = () => {
           <div>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw' }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img12}
               alt="clean__img12"
             ></img>
           </div>
           <div>
             <p style={{ fontSize: "2vw", fontWeight: "700", color: "gray" }}>
-            BMC POV
+              BMC POV
             </p>
             <p className="clean__head--title" style={{ paddingTop: "0vw" }}>
-            WORKER STATUS
+              WORKER STATUS
             </p>
             <p className="clean__head--details">
-            Workers just have to send the message of their availability. 
-            According to that, BMC office will got to know the status of them.
+              Workers just have to send the message of their availability.
+              According to that, BMC office will got to know the status of them.
             </p>
           </div>
         </div>
 
         <div className="clean__final">
-        <div>
+          <div>
             <p style={{ fontSize: "2vw", fontWeight: "700", color: "gray" }}>
               CITIZEN POV
             </p>
             <p className="clean__head--title" style={{ paddingTop: "0vw" }}>
-            TASK STATUS
+              TASK STATUS
             </p>
             <p className="clean__head--details">
-            BMC office can see status of tasks which will create transparency between citizens and them. 
+              BMC office can see status of tasks which will create transparency
+              between citizens and them.
             </p>
           </div>
           <div>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw'  }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img13}
               alt="clean__img13"
             ></img>
           </div>
         </div>
 
-        <div className="clean__final" style={{gap:'19vw'}}>
-          <div style={{display:'grid', justifySelf:'start'}}>
+        <div className="clean__final" style={{ gap: "19vw" }}>
+          <div style={{ display: "grid", justifySelf: "start" }}>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw' }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img14}
               alt="clean__img14"
             ></img>
           </div>
           <div>
             <p style={{ fontSize: "2vw", fontWeight: "700", color: "gray" }}>
-            BMC POV
+              BMC POV
             </p>
             <p className="clean__head--title" style={{ paddingTop: "0vw" }}>
-            ASSIGN TASK
+              ASSIGN TASK
             </p>
             <p className="clean__head--details">
-            BMC will assign workers according to their availability.
+              BMC will assign workers according to their availability.
             </p>
           </div>
         </div>
 
         <div className="clean__final">
-        <div>
+          <div>
             <p style={{ fontSize: "2vw", fontWeight: "700", color: "gray" }}>
               CITIZEN POV
             </p>
             <p className="clean__head--title" style={{ paddingTop: "0vw" }}>
-            COLLECT FINE
+              COLLECT FINE
             </p>
             <p className="clean__head--details">
-            BMC employees will collect fine if they see people are throwing garbage or spitting, etc. 
+              BMC employees will collect fine if they see people are throwing
+              garbage or spitting, etc.
             </p>
           </div>
           <div>
             <img
               className="clean__img"
-              style={{ height: "40vw", borderBottom:'3px solid gray', padding:'2vw 1vw'  }}
+              style={{
+                height: "40vw",
+                borderBottom: "3px solid gray",
+                padding: "2vw 1vw",
+              }}
               src={img15}
               alt="clean__img15"
             ></img>

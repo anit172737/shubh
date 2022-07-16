@@ -24,6 +24,9 @@ const Nike = () => {
                 <img className='nike__sec--last-img nike__sec--last-img-5' src={img6} alt={img5}></img>
                 <img className='nike__sec--last-img nike__sec--last-img-6' src={img5} alt={img6}></img>
             </div>
+            <div className='nike__sec--end'>
+            <p className='nike__sec--end-1'></p>
+            </div>
         </div>
     </div>
   )
