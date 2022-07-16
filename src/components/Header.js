@@ -3,6 +3,10 @@ import { NavLink } from "react-router-dom";
 import "../sass/Header.scss";
 import img1 from "../icons/insta.png";
 import img2 from "../icons/in.png";
+import img3 from "../icons/be.png";
+import img11 from "../icons/instagram.png";
+import img22 from "../icons/linkedin.png";
+import img33 from "../icons/behance.png";
 
 const Header = ({ backColor, setBackColor }) => {
   return (
@@ -17,7 +21,7 @@ const Header = ({ backColor, setBackColor }) => {
             className={
               backColor ? "header__start--img-1" : "header__start--img"
             }
-            src={img1}
+            src={backColor ? img11 : img1}
             alt="linkedin"
           ></img>
         </a>
@@ -30,7 +34,21 @@ const Header = ({ backColor, setBackColor }) => {
             className={
               backColor ? "header__start--img-1" : "header__start--img"
             }
-            src={img2}
+            src={backColor ? img22 : img2}
+            alt="insta"
+          ></img>
+        </a>
+        <a
+          href="https://www.behance.net/shubhamghanekar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className={
+              backColor ? "header__start--img-1" : "header__start--img"
+            }
+            style={{ height: "2vw" }}
+            src={backColor ? img33 : img3}
             alt="insta"
           ></img>
         </a>
